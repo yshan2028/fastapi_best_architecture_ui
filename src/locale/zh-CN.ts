@@ -1,16 +1,16 @@
 import localeMessageBox from '@/components/message-box/locale/zh-CN';
 import localeLogin from '@/views/login/locale/zh-CN';
-
+import localeMenu from '@/views/admin/menu/locale/zh-CN';
 import localeWorkplace from '@/views/dashboard/workplace/locale/zh-CN';
-
 import localeLogLogin from '@/views/log/login/locale/zh-CN';
-
+import localeIconPicker from '@/components/icon-picker/locale/zh-CN';
 import localeSettings from './zh-CN/settings';
 
 export default {
   'menu.dashboard': '仪表盘',
   'menu.server.dashboard': '仪表盘-服务端',
   'menu.server.workplace': '工作台-服务端',
+  'menu.system': '系统管理',
   'menu.log': '日志',
   'menu.server.monitor': '实时监控-服务端',
   'menu.list': '列表页',
@@ -24,9 +24,18 @@ export default {
   'menu.faq': '常见问题',
   'navbar.docs': '文档中心',
   'navbar.action.locale': '切换为中文',
+  'modal.title.tips': '温馨提示',
+  'modal.title.tips.delete': '确定要删除吗？',
+  'switch.open': '开启',
+  'switch.close': '关闭',
+  'submit.create.success': '创建成功',
+  'submit.update.success': '更新成功',
+  'submit.delete.success': '删除成功',
   ...localeSettings,
   ...localeMessageBox,
   ...localeLogin,
   ...localeWorkplace,
   ...localeLogLogin,
+  ...localeMenu,
+  ...localeIconPicker,
 };
