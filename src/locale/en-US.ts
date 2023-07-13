@@ -6,6 +6,8 @@ import localeLogLogin from '@/views/log/login/locale/en-US';
 import localeIconPicker from '@/components/icon-picker/locale/en-US';
 import localeLogOpera from '@/views/log/opera/locale/en-US';
 import localeSysDept from '@/views/admin/dept/locale/en-US';
+import localeServerMonitor from '@/views/monitor/server/locale/en-US';
+import localeRedisMonitor from '@/views/monitor/redis/locale/en-US';
 import localeSysApi from '@/views/admin/api/locale/en-US';
 import localeSettings from './en-US/settings';
 
@@ -16,6 +18,7 @@ export default {
   'menu.server.monitor': 'Monitor-Server',
   'menu.system': 'System Manage',
   'menu.log': 'Log',
+  'menu.monitor': 'System Monitor',
   'menu.list': 'List',
   'menu.result': 'Result',
   'menu.exception': 'Exception',
@@ -43,5 +46,7 @@ export default {
   ...localeIconPicker,
   ...localeLogOpera,
   ...localeSysDept,
+  ...localeServerMonitor,
+  ...localeRedisMonitor,
   ...localeSysApi,
 };
