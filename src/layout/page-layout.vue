@@ -1,5 +1,5 @@
 <template>
-  <router-view v-slot="{ Component, route }">
+  <router-view v-slot="{ Component, route }" :key="$route.path">
     <transition appear mode="out-in" name="fade">
       <component
         :is="Component"
