@@ -3,10 +3,9 @@
 Front-end Implementation of
 the [FastAPI Best Architecture](https://github.com/fastapi-practices/fastapi_best_architecture)
 
-Realization of some basic functions, slow development, only as a demonstration of effects
+Some basic functionality has been implemented, development has been slow, please keep in mind that at the moment it is only intended as a demo of the effect and not for production!
 
-Unfortunately, we don't have the funds to provide a demo site at the moment, so please see
-the [screenshots](#screenshots)
+Fortunately, we now have a demo site: [FBA UI](https://fba.xwboy.top/)
 
 > [!NOTE]
 > Use casbin authorization internally instead of role menu authorization
@@ -59,22 +58,14 @@ yarn build
 - [Arco-design](https://github.com/arco-design)
 - ...
 
+## Interactivity
+
+[WeChat / QQ](https://github.com/wu-clan)
+
 ## Sponsor us
 
-> If this program has helped you, you can sponsor us with some coffee beans :coffee:
-
-<table>
-  <tr>
-    <td><img src="https://github.com/wu-clan/image/blob/master/pay/weixin.jpg?raw=true" width="180px" alt="WeChat"/>
-    <td><img src="https://github.com/wu-clan/image/blob/master/pay/zfb.jpg?raw=true" width="180px" alt="Alipay"/>
-    <td><img src="https://github.com/wu-clan/image/blob/master/pay/ERC20.jpg?raw=true" width="180px" alt="0x40D5e2304b452256afD9CE2d3d5531dc8d293138"/>
-  </tr>
-  <tr>
-    <td style="text-align: center;">WeChat Pay</td>
-    <td style="text-align: center;">Ali Pay</td>
-    <td style="text-align: center;">ERC20</td>
-  </tr>
-</table>
+If this program has helped you, you can sponsor us with some coffee
+beans: [:coffee: Sponsor :coffee:](https://wu-clan.github.io/sponsor/)
 
 ## License
 
